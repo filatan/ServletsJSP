@@ -1,0 +1,19 @@
+Use CDs;
+Create table CD(
+id INTEGER NOT NULL,
+Album VARCHAR(300),
+Author VARCHAR(300),
+Country VARCHAR(300),
+Price FLOAT, 
+Quantity INTEGER, 
+PRIMARY KEY (id)
+);
+INSERT INTO CDs (id, Album, Author, Country, Price, Quantity) VALUES(1, 'Yuan', 'The Guo Brothers', 'China', 4.95);
+INSERT INTO CDs (id, Album, Author, Country, Price, Quantity) 
+VALUES('Drums of Passion', 'Babatune Olatunji', 'Nigeria, 6.95);
+INSERT INTO CDs (id, Album, Author, Country, Price, Quantity) 
+VALUES('Kaira', 'Tounami Diabate', 'Mali', 6,95);
+INSERT INTO CDs (id, Album, Author, Country, Price, Quantity) 
+VALUES('The Lion is Loose', 'Eliades Ochoa', 'Cuba', 3,95);
+INSERT INTO CDs (id, Album, Author, Country, Price, Quantity) 
+VALUES('Dance The Devil Away', Outback, Australia, 4,95);
